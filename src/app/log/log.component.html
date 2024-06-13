@@ -2,6 +2,7 @@
   <div class="login-container">
     <form #loginForm="ngForm" (ngSubmit)="onSubmit()">
       <h5>{{currentDate | date : 'mediumTime'}}</h5>
+      <h1>{{currentDate | date }}</h1>
       <h2 signpop>Login </h2>
       <div class="form-group">
         <label for="username">Username</label>

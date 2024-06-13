@@ -1,0 +1,142 @@
+.login-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: antiquewhite;
+}
+
+.backg {
+    background-color: aqua;
+    width: 101%;
+    height: 660px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    font-size: 1cm;
+    color: rgb(8, 78, 45);
+}
+
+h5 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: rgb(8, 78, 45);
+    margin-top: -20px;
+    margin-left: -220px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.error-message {
+    color: red;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.gsign {
+    margin-top: 10px;
+}
+
+.loading-indicator {
+    font-style: italic;
+    color: #7664ec;
+    margin-left: 30%;
+
+}
+
+// .error-message1 {
+//     color: red;
+//     size: 0.4cm;
+//     margin-left: 10%;
+//   }
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Default placeholder style */
+::placeholder {
+    color: #aaa;
+}
+
+
+
+/* Optional: Input border style when invalid */
+.error-placeholder::placeholder {
+    color: red;
+}
+
+.form-group.relative {
+    position: relative;
+}
+
+.error-message {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.8);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    z-index: 1;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.form-group.relative {
+    position: relative;
+}
+
+.error-message {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0.8);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    z-index: 1;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-size: 14px;
+    transition: opacity 0.5s ease;
+    /* Add transition for opacity */
+}
+
+.fade-out {
+    opacity: 10;
+    /* Set opacity to 0 to hide the error message */
+}
